@@ -1,0 +1,10 @@
+/* style.css */
+.chart-wrapper {
+  display: flex;
+  justify-content: flex-start; /* Move canvas to the left */
+}
+
+canvas {
+  max-width: 600px;
+  max-height: 600px;
+}

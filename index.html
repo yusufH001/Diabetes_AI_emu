@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
 
@@ -24,12 +24,12 @@
         <p>Usa el menú para navegar.</p>
     </div>
     
-    <div id="Dashboard">
-        <canvas id="MonitorSugar" width="400px" height="200px"></canvas>
-    </div>
-    
+        <div class="chart-wrapper">
+  <canvas id="glucoseChart" width="400" height="200"></canvas>
+        </div>
+      <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+      <script src="chart.js"></script>
 
-    <script src="chart.js"></script>
 
 </body>
 </html>
