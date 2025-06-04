@@ -8,3 +8,29 @@ canvas {
   max-width: 600px;
   max-height: 600px;
 }
+
+nav {
+  text-align: center; /* Center inline-block elements like ul */
+  padding: 20px;
+  background-color: hsl(293, 100%, 98%);
+}
+
+.menu {
+  display: inline-flex; /* Make it behave like an inline block */
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.menu li {
+  background-color: rgb(255, 255, 231);
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+.menu a {
+  color: #000; /* or any other color like white, blue, etc. */
+  text-decoration: none; /* removes underline */
+  font-weight: bold; /* optional: makes text bold */
+}
